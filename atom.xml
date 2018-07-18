@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-07-18T04:49:12.000Z</updated>
+  <updated>2018-07-18T06:48:32.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,13 +17,41 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>终端乱码</title>
+    <link href="http://yoursite.com/2018/07/18/%E7%BB%88%E7%AB%AF%E4%B9%B1%E7%A0%81/"/>
+    <id>http://yoursite.com/2018/07/18/终端乱码/</id>
+    <published>2018-07-18T06:43:00.000Z</published>
+    <updated>2018-07-18T06:48:32.000Z</updated>
+    
+    <content type="html"><![CDATA[<ul><li>编辑 .bash_profile .bashrc .zshrc</li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">export LANG=en_US.UTF-8</span><br><span class="line">export LC_CTYPE=&quot;en_US.UTF-8&quot;  </span><br><span class="line">export LC_NUMERIC=&quot;en_US.UTF-8&quot;  </span><br><span class="line">export LC_TIME=&quot;en_US.UTF-8&quot;  </span><br><span class="line">export LC_COLLATE=&quot;en_US.UTF-8&quot;  </span><br><span class="line">export LC_MONETARY=&quot;en_US.UTF-8&quot;  </span><br><span class="line">export LC_MESSAGES=&quot;en_US.UTF-8&quot;  </span><br><span class="line">export LC_PAPER=&quot;en_US.UTF-8&quot;  </span><br><span class="line">export LC_NAME=&quot;en_US.UTF-8&quot;  </span><br><span class="line">export LC_ADDRESS=&quot;en_US.UTF-8&quot;  </span><br><span class="line">export LC_TELEPHONE=&quot;en_US.UTF-8&quot;  </span><br><span class="line">export LC_MEASUREMENT=&quot;en_US.UTF-8&quot;  </span><br><span class="line">export LC_IDENTIFICATION=&quot;en_US.UTF-8&quot;  </span><br><span class="line">export LC_ALL=&quot;en_US.UTF-8&quot;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ul&gt;
+&lt;li&gt;编辑 .bash_profile .bashrc .zshrc&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;
+      
+    
+    </summary>
+    
+      <category term="linux" scheme="http://yoursite.com/categories/linux/"/>
+    
+    
+      <category term="linux" scheme="http://yoursite.com/tags/linux/"/>
+    
+  </entry>
+  
+  <entry>
     <title>常用shell 字符串处理</title>
     <link href="http://yoursite.com/2018/07/18/%E5%B8%B8%E7%94%A8shell/"/>
     <id>http://yoursite.com/2018/07/18/常用shell/</id>
     <published>2018-07-18T02:47:16.000Z</published>
-    <updated>2018-07-18T04:49:12.000Z</updated>
+    <updated>2018-07-18T06:40:39.000Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="随机选取"><a href="#随机选取" class="headerlink" title="随机选取"></a>随机选取</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cat file | sort --random-sort | head -n 5000 &gt; result</span><br></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<h2 id="随机选取"><a href="#随机选取" class="headerlink" title="随机选取"></a>随机选取</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cat file | sort --random-sort | head -n 5000 &gt; result</span><br></pre></td></tr></table></figure><h2 id="字符集变换"><a href="#字符集变换" class="headerlink" title="字符集变换"></a>字符集变换</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">iconv -f gb18030 -t utf8 aa &gt; a</span><br><span class="line">iconv -f utf8 -t gb18030 aa &gt; a</span><br></pre></td></tr></table></figure>]]></content>
     
     <summary type="html">
     
