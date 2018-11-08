@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-11-08T11:03:53.000Z</updated>
+  <updated>2018-11-08T11:27:50.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,17 +21,16 @@
     <link href="http://yoursite.com/2018/08/24/%E5%A5%BD%E6%96%87/"/>
     <id>http://yoursite.com/2018/08/24/好文/</id>
     <published>2018-08-24T12:17:15.000Z</published>
-    <updated>2018-11-08T11:03:53.000Z</updated>
+    <updated>2018-11-08T11:27:50.000Z</updated>
     
-    <content type="html"><![CDATA[<ul><li><a href="https://github.com/imjoey/blog/issues" target="_blank" rel="noopener">各种讨论总结在issue中</a></li><li><a href="https://fanchao01.github.io/blog/" target="_blank" rel="noopener">FanChao</a></li></ul>]]></content>
+    <content type="html"><![CDATA[<h1 id="博客"><a href="#博客" class="headerlink" title="博客"></a>博客</h1><ul><li><a href="https://github.com/imjoey/blog/issues" target="_blank" rel="noopener">各种讨论总结在issue中</a></li><li><a href="https://fanchao01.github.io/blog/" target="_blank" rel="noopener">FanChao: RabbitMQ系统结构的总结</a></li></ul><h1 id="开源项目"><a href="#开源项目" class="headerlink" title="开源项目"></a>开源项目</h1><ul><li><a href="https://github.com/NervJS/taro" target="_blank" rel="noopener">Taro,多端统一开发框架，支持用 React 的开发方式编写一次代码，生成能运行在微信小程序/百度智能小程序/支付宝小程序</a></li></ul>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/imjoey/blog/issues&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;各种讨论总结在issue中&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://fanchao0
+        &lt;h1 id=&quot;博客&quot;&gt;&lt;a href=&quot;#博客&quot; class=&quot;headerlink&quot; title=&quot;博客&quot;&gt;&lt;/a&gt;博客&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/imjoey/blog/issues&quot; target=&quot;_blank&quot; 
       
     
     </summary>
