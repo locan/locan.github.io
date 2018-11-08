@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Locan的博客</title>
+  <title>夏了夏天的控制狂</title>
   
-  <subtitle>keep learning、keep thinking</subtitle>
+  <subtitle>骗自己喜欢学习</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
@@ -10,7 +10,7 @@
   <id>http://yoursite.com/</id>
   
   <author>
-    <name>Locan</name>
+    <name>Tony Stark</name>
     
   </author>
   
